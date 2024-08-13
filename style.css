@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+    background:url(Backg.png) no-repeat center center;
+    background-size: cover  ;
+
+}
+
+.wrapper{
+    width: 420px;
+    background:transparent;
+    color: rgb(230, 230, 230);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgb(225,225,225,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 5px rgb(0,0,0,0.2);
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+    margin-left: 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(225, 225, 225, .2);
+    border-radius: 100px;
+    padding-left: 20px;
+    color: rgb(230, 230, 230);
+}
+
+input::placeholder{
+    color: rgb(230, 230, 230);
+}
+
+#pw{
+    padding-left: 28%;
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+
+#pw:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 550;
+    font-size:larger
+}
+
+.register{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#reg{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    
+}
+
+#reg:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: rgb(230, 230, 230);
+}
