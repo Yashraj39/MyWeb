@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 750px;
-    background:url(Backg.png) no-repeat center center;
+    background:url(Background.png) no-repeat center center;
     background-size: cover  ;
 
 }
@@ -92,4 +92,8 @@ input::placeholder{
 
 button{
     background-color: rgb(230, 230, 230);
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(129, 5, 129);
 }
