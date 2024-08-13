@@ -55,7 +55,7 @@ input::placeholder{
 }
 
 #pw{
-    padding-left: 28%;
+    margin-left: auto;
     text-decoration: none;
     color: rgb(230, 230, 230);
 }
@@ -96,4 +96,10 @@ button{
 
 input[type="checkbox"] {
     accent-color: rgb(129, 5, 129);
+}
+
+.remember-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
