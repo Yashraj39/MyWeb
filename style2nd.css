@@ -10,6 +10,10 @@
     src: url(Enigma.ttf);
 }
 
+.row{
+    flex-wrap: wrap;
+}
+
 button{
     background-color: rgb(224, 224, 61);
     padding-left: 10px;

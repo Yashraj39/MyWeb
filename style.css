@@ -11,12 +11,12 @@ body{
     align-items: center;
     min-height: 100vh;
     background:url(Background.png) no-repeat center center;
-    background-size: 120%;
+    background-size: cover;
 
 }
 
 .wrapper{
-    width: 460px;
+    width: 420px;
     background:transparent;
     color: rgb(230, 230, 230);
     border-radius: 20px;
