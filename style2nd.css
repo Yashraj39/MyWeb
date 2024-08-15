@@ -1,10 +1,23 @@
 *{
-    color:aliceblue;
+    color:rgb(224, 224, 61);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+@font-face {
+    font-family: Enigma;
+    src: url(Enigma.ttf);
 }
 
 button{
-    background-color: orange;
+    background-color: rgb(224, 224, 61);
     padding-left: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
 
 }
 
@@ -17,18 +30,22 @@ div.col.logo{
     padding-top: 1.9px;
 }
 
-#search{
+div#search.col-sm{
     width: 100%;
     background-color: black;
+    padding-left: 0%;
 }
 
 .col,div{
-   background-color: black;
+   background-color: rgb(5, 5, 5);
 }
 
 #logo{
-    font-size: 25px;
-    color: orange;
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(239, 239, 59);
+    font-weight: 600;
+    font-family: Enigma;
 }
 
 p1{
@@ -41,17 +58,21 @@ p1{
 
 input{
     height: 26.82px;
+    color: black;
+    padding-left: 5px;
+    border-radius: 10px;
 }
 
 @media (max-width: 455px) {
 
     input{
         padding-right: 100px;
-        width: 80%;
+        width: 78%;
+        padding-left: 10px;
     }
 
     #searchin{
-        width: 100%;
+        width: 100vw;
         background-color: black;
         padding-left: 12px;
         margin-bottom: 10px;
@@ -75,6 +96,7 @@ input{
     #logo{
         font-size: 19px;
         padding-right: 30px;
+        padding-left: 20px;
     }
     
     div .col{
@@ -83,8 +105,24 @@ input{
         padding-right: 1px;
     }
 
-    #search{
-        padding-top:0%;
+    div#search.col-sm{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    button{
+        height: 29px;
+        background-color: rgb(224, 224, 61);
+        padding-left: 10px;
+        margin-left: 5px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    #Movies{
+        padding-left: 11px;
     }
 
 }
