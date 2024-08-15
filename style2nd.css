@@ -1,0 +1,90 @@
+*{
+    color:aliceblue;
+}
+
+button{
+    background-color: orange;
+    padding-left: 10px;
+
+}
+
+div .col{
+    padding-left: 0%;
+    padding-top: 10px;
+} 
+
+div.col.logo{
+    padding-top: 1.9px;
+}
+
+#search{
+    width: 100%;
+    background-color: black;
+}
+
+.col,div{
+   background-color: black;
+}
+
+#logo{
+    font-size: 25px;
+    color: orange;
+}
+
+p1{
+    padding-left: 20px;
+}
+
+#search{
+    padding-top: 10px;
+}
+
+input{
+    height: 26.82px;
+}
+
+@media (max-width: 455px) {
+
+    input{
+        padding-right: 100px;
+        width: 80%;
+    }
+
+    #searchin{
+        width: 100%;
+        background-color: black;
+        padding-left: 12px;
+        margin-bottom: 10px;
+        
+    }
+
+    P{
+        padding-top: 3.3px;
+        margin-bottom: 2px;
+    }
+
+    P1{
+        padding-left: 15px;
+    }
+
+    #contactUs{
+        padding-top: 3.3px;
+        margin-bottom: 2px;
+    }    
+    
+    #logo{
+        font-size: 19px;
+        padding-right: 30px;
+    }
+    
+    div .col{
+        padding-left: 0%;
+        padding-top: 0px;
+        padding-right: 1px;
+    }
+
+    #search{
+        padding-top:0%;
+    }
+
+}
