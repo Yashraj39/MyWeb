@@ -9,14 +9,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 750px;
+    min-height: 100vh;
     background:url(Background.png) no-repeat center center;
-    background-size: cover;
+    background-size: 120%;
 
 }
 
 .wrapper{
-    width: 420px;
+    width: 460px;
     background:transparent;
     color: rgb(230, 230, 230);
     border-radius: 20px;
