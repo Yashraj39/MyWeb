@@ -1,132 +1,68 @@
-*{
-    color:rgb(224, 224, 61);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-
-}
-
 @font-face {
     font-family: Enigma;
     src: url(Enigma.ttf);
 }
 
-.row{
-    flex-wrap: wrap;
+#Account,#Movies,#ContactUs{
+    color: rgb(239, 239, 59);
+    font-size: 20px;
 }
 
-button{
-    background-color: rgb(224, 224, 61);
-    padding-left: 10px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    border-radius: 10px;
+#SearchInput{
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.col {
+    text-align: center;
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0; 
     border: none;
-
 }
 
-div .col{
-    padding-left: 0%;
-    padding-top: 10px;
-} 
-
-div.col.logo{
-    padding-top: 1.9px;
+.row,.col,div{
+    background-color: rgb(240, 8, 8);
 }
 
-div#search.col-sm{
-    width: 100%;
-    background-color: black;
-    padding-left: 0%;
+.row {
+    margin: 0;
 }
 
-.col,div{
-   background-color: rgb(5, 5, 5);
-}
-
-#logo{
+#logo {
     font-size: 30px;
-    padding-left: 30px;
     color: rgb(239, 239, 59);
     font-weight: 600;
     font-family: Enigma;
 }
 
-p1{
-    padding-left: 20px;
+
+
+p {
+    margin: 0;
+    white-space: nowrap;
 }
 
-#search{
-    padding-top: 10px;
-}
-
-input{
-    height: 26.82px;
+button {
+    background-color: rgb(224, 224, 61);
     color: black;
-    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     border-radius: 10px;
 }
 
 @media (max-width: 455px) {
-
-    input{
-        padding-right: 100px;
-        width: 78%;
-        padding-left: 10px;
+    .col {
+        height: 50px;
     }
 
-    #searchin{
-        width: 100vw;
-        background-color: black;
-        padding-left: 12px;
-        margin-bottom: 10px;
-        
+    #Account,#Movies,#ContactUs{
+        padding-top: 5px;
+        padding-left: 5px;
+        color: rgb(239, 239, 59);
+        font-size: 17px;
     }
-
-    P{
-        padding-top: 3.3px;
-        margin-bottom: 2px;
-    }
-
-    P1{
-        padding-left: 15px;
-    }
-
-    #contactUs{
-        padding-top: 3.3px;
-        margin-bottom: 2px;
-    }    
-    
-    #logo{
-        font-size: 19px;
-        padding-right: 30px;
-        padding-left: 20px;
-    }
-    
-    div .col{
-        padding-left: 0%;
-        padding-top: 0px;
-        padding-right: 1px;
-    }
-
-    div#search.col-sm{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
-
-    button{
-        height: 29px;
-        background-color: rgb(224, 224, 61);
-        padding-left: 10px;
-        margin-left: 5px;
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-
-    #Movies{
-        padding-left: 11px;
-    }
-
 }
