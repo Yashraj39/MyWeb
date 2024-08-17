@@ -30,6 +30,15 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.item hov:hover{
+    text-decoration: underline;
+}
+
 #SearchInput{
     border-radius: 15px;
     padding-left: 15px;
