@@ -3,7 +3,7 @@
     src: url(TextStyles/Enigma.ttf);
 }
 
-#Account,#Movies,#ContactUs{
+#Home,#Playlists,#ContactUs{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
@@ -87,13 +87,6 @@ a{
     margin: 0;
 }
 
-.nav-link.active {
-    font-weight: bold;
-    color: yellow; 
-    text-decoration: underline;
-}
-
-
 #logo {
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -143,7 +136,7 @@ button {
         border-radius: 10px;
     }
 
-    #Account,#Movies,#ContactUs{
+    #Home,#Playlists,#ContactUs{
         padding-top: 5px;
         padding-left: 5px;
         font-size: 17px;
