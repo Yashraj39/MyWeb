@@ -162,6 +162,7 @@ button {
     .col {
         height: 50px;
     }
+    
 
     h3{
         text-align: start;
@@ -201,5 +202,9 @@ button {
 
     info{
         font-size: 20px;
+    }
+
+    div.info{
+        padding-left: 10px;
     }
 }
