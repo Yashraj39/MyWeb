@@ -16,6 +16,22 @@ h4,h5{
     margin-bottom: 0%;
 }
 
+div.info{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+#first{
+    margin-top: 20px;
+}
+
+info{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h3{
     text-align: start;
     padding-left: 10px;
