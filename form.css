@@ -1,0 +1,290 @@
+@font-face {
+    font-family: Enigma;
+    src: url(TextStyles/Enigma.ttf);
+}
+
+#Home,#Playlists,#ContactUs{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#border{
+    border: 2px solid black;
+    border-radius: 11.5px;
+}
+
+#SendMessage{
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.input-box button{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 100px;
+    background-color: rgb(247, 67, 100);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.input-box input{
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 40vw;
+    margin-left: 0px;
+    margin-right: -100px;
+    height: 40px;
+    background-color: rgb(247, 67, 100);
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.input-box input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#Form{
+    margin-top: 200px;
+}
+
+html body{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    background: url(Images/ContactUs.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#seacrh-icon{
+    height: 15px;
+    width: 15px;
+    padding-top: -5px;
+}
+
+#back{
+    margin-top: -15px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+h4,h5{
+    padding-left: 10px;
+    padding-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+div.info{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+#first{
+    margin-top: 20px;
+}
+
+info{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#playlist1,#playlist2{
+    margin-top: 100px;
+    z-index: 1;
+}
+
+#playlist2{
+    margin-top: 110px;
+}
+
+h3{
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h2{
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.item hov:hover{
+    text-decoration: underline;
+}
+
+#SearchInput{
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.playlist .card::-webkit-scrollbar {
+    display: none;
+}
+
+.playlist{
+    padding: 20px 40px;
+}
+
+.playlist .card{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 30px;
+    border: 0;
+}
+
+.playlist .item img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.col {
+    text-align: center;
+    height: 90px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0; 
+    border: none;
+}
+
+.row,.col,.container-fluid{
+    background-color: rgb(220, 45, 77);
+}
+
+.row {
+    margin: 0;
+}
+
+#logo {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-family: Enigma;
+    -webkit-text-stroke: 1px black; 
+}
+
+p,a{
+    margin: 0;
+    white-space: nowrap;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 67, 100);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 15px;
+}
+
+@media (max-width: 455px) {
+    .col {
+        height: 50px;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        min-height: 100vh;
+        background: url(Images/ContactUs.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .input-box input{
+        margin-bottom: 30px;
+        border-radius: 100px;
+        width: 80vw;
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+
+    .input-box button{
+        margin-left: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #SendMessage{
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    h3{
+        text-align: start;
+        padding-left: 5px;
+        padding-top: 5px;
+        font-size: 20px;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    h5{
+        padding-left: 5px;
+        font-size: 15px;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .playlist{
+        padding: 20px 20px;
+    }
+
+    .playlist .item img{
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #Home,#Playlists,#ContactUs{
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 17px;
+    }
+
+    #logo {
+        font-size: 30px;
+    }
+
+    info{
+        font-size: 20px;
+    }
+
+    div.info{
+        padding-left: 10px;
+    }
+}
