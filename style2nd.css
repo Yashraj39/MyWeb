@@ -26,6 +26,10 @@
     height: 50px;
 }
 
+body,html{
+    overflow:scroll;
+}
+
 h4,h5{
     padding-left: 10px;
     padding-top: 0%;

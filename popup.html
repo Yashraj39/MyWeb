@@ -40,21 +40,29 @@
     </div>
 
     <div id="Form">
-        <form action="popup.html">
+        <form>
             <div class="input-box">
-                <input type="text" placeholder="User Name" required>
+                <input type="text" placeholder="User Name">
             </div>
             <div class="input-box">
-                <input type="email" placeholder="Email Id" required>
+                <input type="email" placeholder="Email Id">
             </div>
             <div class="input-box">
-                <input type="tel" pattern="\d{10}" placeholder="Mobile Number" minlength="10" maxlength="10" inputmode="numeric" required>
+                <input type="number" placeholder="Mobile Number">
             </div>
+
+            <div id="Done">
+                <div class="message">
+                    <h1>Message Sent Successfully!!</h1>
+                    <a href="contactUs.html" class="btn btn-primary" id="button2">OK</a>
+                </div>
+            </div>
+
             <div class="input-box" id="YourMessage">
-                <input type="text" placeholder="Your Message..." required>
+                <input type="text" placeholder="Your Message...">
             </div>
             <div class="input-box" id="SendMessage">
-                <button type="submit" id="button">Send Message</button>
+                <button type="submit" id="button"><a href="Message.html">Send Message</a></button>
             </div>
             
         </form>
